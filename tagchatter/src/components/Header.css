@@ -1,0 +1,35 @@
+header {
+    height: 82px;
+    /* width: 100vw; */
+    display: flex;
+    /* margin-top: 17px; */
+    padding-left: 22px;
+    padding-right: 22px;
+
+    /* background: #F2F2F2; */
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid #EEEEEE;
+}
+
+#parrots-count {
+    display: flex;
+    flex-direction: row;
+}
+
+#channel-name-text {
+    color: #626262;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 36px;
+}
+
+#parrots-count-number {
+    color: #626262;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 36px;
+}
