@@ -16,7 +16,11 @@ export default class Message extends React.Component{
     }
 
     componentDidMount() {
-        this.setState({ hasParrot: this.props.isParrot })
+        this.setState({ hasParrot: this.props.isParrot });
+    }
+
+    toggleHover = () => {
+        this.toggleParrot();
     }
 
     toggleParrot() {
@@ -45,7 +49,11 @@ export default class Message extends React.Component{
                         <label id='time-text'>• {this.props.time} •</label>
                         
                         <button id='parrot-button' onClick={this.handleParrot}>
-                            <img src={this.state.hasParrot ? parrot : unparrot} id='parrot' alt='' />
+                            <img 
+                                src={this.state.hasParrot ? parrot : unparrot} 
+                                id='parrot' 
+                                alt='parrot' 
+                            />
                         </button>
                     </div>
     

@@ -14,7 +14,7 @@ export default class Header extends React.Component {
     }
 
     componentDidMount() {
-        setInterval(this.loadParrotsCount, 500);
+        setInterval(this.loadParrotsCount, 250);
         this.loadParrotsCount();
     }
 
