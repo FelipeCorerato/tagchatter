@@ -29,6 +29,7 @@ input::-webkit-input-placeholder {
     font-family: 'Lato', sans-serif;
     font-weight: normal;
     line-height: normal;
+    vertical-align: middle;
 }
 
 input::-moz-placeholder {
@@ -37,6 +38,7 @@ input::-moz-placeholder {
     font-family: 'Lato', sans-serif;
     font-weight: normal;
     line-height: normal;
+    vertical-align: middle;
 }
 
 button {
